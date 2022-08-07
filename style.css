@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #2C3333;
+    background-color: #2a282d;
     color: #c0c0c0;
     font-family: 'Merriweather Sans', sans-serif;
     width: auto;
@@ -38,7 +38,7 @@ body{
     background-color: #393E46;
     border-radius: .5rem;
     padding: 2rem;
-    box-shadow: 2px 3px 5px #000000;
+    box-shadow: 0 1px 5px #000000;
 }
 
 
@@ -174,7 +174,7 @@ header, .projects, section, .posts{
     background-color: #393E46;
     border-radius: .5rem;
     padding: 1.5rem;
-    box-shadow: 1px 1px 5px #000000; 
+    box-shadow: 0 1px 5px #000000; 
        
 }
 
