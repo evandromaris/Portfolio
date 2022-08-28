@@ -170,7 +170,7 @@ body{
     width: 65vw;
 }
 
-header, .projects, section, .posts{
+header, .projects, section{
     background-color: #393E46;
     border-radius: .5rem;
     padding: 1.5rem;
@@ -183,7 +183,6 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
-    
 }
 
 header a{
@@ -222,6 +221,16 @@ main{
     color: #A66CFF;
 }
 
+.projects .img-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .img-projects img{
+    width: 25rem;
+}
+
 .projects .icons{
     display: flex;
     justify-content: space-between;
@@ -241,55 +250,20 @@ main{
 }
 
 
-section, .posts{
+section{
     grid-column-start: 1;
     grid-column-end: 3;
-
 }
 
 section h3{
     font-size: 1.2rem;
 }
 
-.posts {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.posts img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 8rem;
-    box-sizing: border-box;
-}
-
-.posts .content-post{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.posts .content-post .content-title h4{
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-.posts .content-post .content-title p{
-    margin-top: .5rem;
-    font-size: .8rem;
-}
-
-.posts .content-post .hashtag ul{
-    display: flex;
-    margin-top: .5rem;
-    font-size: .8rem;
-    gap: 2rem;
-}
-
 /*inicio do rodapé*/
 .container footer{
     grid-column-start: 1;
     grid-column-end: 3;   
-    padding-bottom: .8rem;
+    padding: 1rem 0 .8rem 0;
     font-size: .8rem;
     text-align: center;
 }
@@ -333,21 +307,10 @@ section h3{
         width: 20rem;
     }
 
-    section, .posts, .content-post {
+    section, .content-post {
         width: 20rem;
     }
-
-    .posts img{
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .posts{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .posts .content-post .hashtag ul{
+.content-post .hashtag ul{
         gap: .5rem;
     }
 
