@@ -307,10 +307,15 @@ section h3{
         width: 20rem;
     }
 
+    .projects .img-projects img{
+        width: 20rem;
+    }
+
     section, .content-post {
         width: 20rem;
     }
-.content-post .hashtag ul{
+
+    .content-post .hashtag ul{
         gap: .5rem;
     }
 
